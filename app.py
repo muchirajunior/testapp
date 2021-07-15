@@ -12,4 +12,4 @@ def junior():
    
    return {"route":"junior!!!!!!!!"}
 
-app.run()
+# app.run()
