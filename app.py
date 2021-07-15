@@ -7,4 +7,9 @@ def index():
 
    return {"app":"running"}
 
+@app.route("/junior")
+def junior():
+   
+   return {"route":"junior!!!!!!!!"}
+
 app.run()
