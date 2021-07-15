@@ -6,3 +6,5 @@ app=Flask(__name__)
 def index():
 
    return {"app":"running"}
+
+app.run()
