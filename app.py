@@ -36,7 +36,7 @@ def index():
 @app.route("/junior")
 def junior():
   
-   return {"route":"junior!!!!!!!!"}
+   return {"name":"muchira junior!!!!!!!!"}
 
 @app.route("/adduser",methods=["POST"])
 def adduser():
