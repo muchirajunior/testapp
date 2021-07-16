@@ -61,3 +61,4 @@ def allusers():
 
        return usershema.jsonify(users)
  
+ app.run()
